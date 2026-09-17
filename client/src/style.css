@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@source "./**/*.{vue,js,ts,jsx,tsx,html}";
+
+@theme {
+  --color-primary: #a34135;
+  --color-antique-gold: #d4af37;
+  --color-learn-surface-1: #fffaf3;
+  --color-learn-surface-2: #fdf4e8;
+  --color-learn-surface-3: #f6ead9;
+}
+
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
